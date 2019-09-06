@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_language_array">
+        <item name="DE">"Deutsch"</item>
+        <item name="EN">"English"</item>
+    </string-array>
+
+    <string-array name="pref_language_array_values">
+        <item name="DE">"de"</item>
+        <item name="EN">"en"</item>
+    </string-array>
+
+
+    <string-array name="pref_gender_array">
+        <item name="NO">"Not set"</item>
+        <item name="MAN">"Man"</item>
+        <item name="WOMAN">"Woman"</item>
+    </string-array>
+
+    <string-array name="pref_gender_array_values">
+        <item name="NO">"n"</item>
+        <item name="MAN">"m"</item>
+        <item name="WOMAN">"f"</item>
+    </string-array>
+
+
+    <string-array name="pref_age_array">
+        <item name="NO">"Not set"</item>
+        <item name="UP_TO_10">"0-10"</item>
+        <item name="UP_TO_20">"11-20"</item>
+        <item name="UP_TO_30">"21-30"</item>
+        <item name="UP_TO_40">"31-40"</item>
+        <item name="UP_TO_50">"41-50"</item>
+        <item name="UP_TO_60">"51-60"</item>
+        <item name="UP_TO_70">"61-70"</item>
+        <item name="UP_TO_120">"71-120"</item>
+    </string-array>
+
+    <string-array name="pref_age_array_values">
+        <item name="NO">-</item>
+        <item name="UP_TO_10">"0-10"</item>
+        <item name="UP_TO_20">"11-20"</item>
+        <item name="UP_TO_30">"21-30"</item>
+        <item name="UP_TO_40">"31-40"</item>
+        <item name="UP_TO_50">"41-50"</item>
+        <item name="UP_TO_60">"51-60"</item>
+        <item name="UP_TO_70">"61-70"</item>
+        <item name="UP_TO_120">"71-120"</item>
+    </string-array>
+
+
+    <string-array name="pref_filter_tour_access_levels">
+        <item name="PUBLIC">"Public"</item>
+        <item name="PRIVATE">"Private"</item>
+        <item name="FRIENDS">"Friends"</item>
+    </string-array>
+
+    <string-array name="pref_filter_tour_access_levels_values">
+        <item name="PUBLIC">"PUBLIC"</item>
+        <item name="PRIVATE">"PRIVATE"</item>
+        <item name="FRIENDS">"FRIENDS"</item>
+    </string-array>
+
+    <string-array name="pref_filter_datasetobject_status">
+        <item name="ACTIVE">"Active"</item>
+        <item name="INACTIVE">"Inactive"</item>
+    </string-array>
+
+    <string-array name="pref_filter_datasetobject_status_values">
+        <item name="ACTIVE">"ACTIVE"</item>
+        <item name="INACTIVE">"INACTIVE"</item>
+    </string-array>
+
+</resources>

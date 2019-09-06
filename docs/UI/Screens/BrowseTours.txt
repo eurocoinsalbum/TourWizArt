@@ -1,0 +1,9 @@
+- Tour1
+- Tour2
+- Tour3
+...
+
+Buttons:
+- Filter tours
+- Create tour
+- each Tour item in the list acts as a button and show the touched tour in TourDetails.txt

@@ -1,0 +1,16 @@
+Mit unserer Android App "TourWizArt" kannst Du Touren rund um Kunst und Kultur erstellen.
+
+Füge zum Beispiel die Gemälde des Städels zu Deiner Tour hinzu, die Du bei Deinem nächsten Besuch ansehen möchtest.
+Bist Du ein Lehrer und planst einen Besuch des Städels mit Deiner Schulklasse? Deine vorgefertigte Tour können die Schüler zur Vor- oder Nachbereitung nutzen.
+Oder erstelle eine Tour für die Allgemeinheit wie z.B. "Best of Impressionismus". Andere User können Deine Tour dann "gehen", individuell anpassen und bewerten!
+
+Auch die Bewertung einzelner Objekte der Tour ist möglich; das kann dem Kulturinstitut als Feedback dienen, das dann ggf. zusätzliche Aktionen startet.
+
+Nun das i-Tüpfelchen: da TourWizArt seine Daten vollständig aus der Cloud bezieht, haben wir gleich mehrere Coding-daVinci-Datensätze integriert:
+
+- Städel
+- Historisches Museum Frankfurt: Fotografien von Carl Mylius von Frankfurt aus dem 19. Jhd.
+- Hochschule Mainz: Stolpersteine Mainz
+...und hoffentlich folgen noch weitere!
+
+TourWizArt befindet sich bereits als Prototyp im Android App Store. Wenn Du mal einen Blick reinwerfen willst, dann schicke mir Deine Google-Account-Mail-Adresse an matthias@online.de, da die App noch nicht öffentlich ist.

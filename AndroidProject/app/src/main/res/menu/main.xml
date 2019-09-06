@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/icons8_menu_settings_48"
+        android:title="@string/menu_settings" />
+
+    <item
+        android:id="@+id/bloomberg_philantropy"
+        android:icon="@drawable/icons8_menu_www_48"
+        android:title="@string/menu_bloomberg_philantropies" />
+
+    <item
+        android:id="@+id/icons8"
+        android:icon="@drawable/icons8_menu_www_48"
+        android:title="@string/menu_icons8" />
+
+    <item
+        android:id="@+id/statistics"
+        android:icon="@drawable/icons8_menu_statistics_48"
+        android:title="@string/menu_statistics" />
+
+    <item
+        android:id="@+id/impressum"
+        android:icon="@drawable/icons8_menu_impressum_48"
+        android:title="@string/menu_impressum" />
+
+    <item
+        android:id="@+id/data_privacy"
+        android:icon="@drawable/icons8_menu_data_privacy_48"
+        android:title="@string/menu_data_privacy" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/icons8_menu_info_48"
+        android:title="@string/menu_about" />
+    <!--
+    <item
+        android:id="@+id/Map"
+        android:icon="@drawable/icons8_menu_info_48"
+        android:title="Map" />
+    -->
+</menu>

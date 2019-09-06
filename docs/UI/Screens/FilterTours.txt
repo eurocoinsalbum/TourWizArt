@@ -1,0 +1,14 @@
+- Category (Paintings, Photographs, Sculptures, ...)
+- Artist (Van Gogh, ...)
+- Style (Impressionism, Expr., ...)
+- Period (Renaissance, modern, ...)
+- Mood/Athmosphere (...)
+- Objects (Horse, Tower, ...)
+
+Button:
+- Apply
+- Reset
+- Cancel
+
+All examples/values come from the meta data
+We should focus on the most important meta tags only for the prototype

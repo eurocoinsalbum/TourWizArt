@@ -1,0 +1,14 @@
+- title of tour
+- scrollable image gallery of previews
+- description
+- creator of tour
+- statistics
+  - how often this tour was taken
+  - rating
+  
+Buttons:
+- Add to my tours (goes to MainScreen.txt)
+- Copy/customize tour (clones and goes to CreateTour.txt)
+- Start tour (add internally to my tours and goes to StartTour.txt)
+- Show map (goes to TourMap.txt)
+- each preview image act as a button and brings up the full size image

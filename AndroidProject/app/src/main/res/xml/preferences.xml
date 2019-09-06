@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:key="pref_language"
+        android:entries="@array/pref_language_array"
+        android:entryValues="@array/pref_language_array_values"
+        android:title="@string/pref_language"
+        android:defaultValue="@string/default_language_code" />
+
+    <ListPreference
+        android:key="pref_gender"
+        android:entries="@array/pref_gender_array"
+        android:entryValues="@array/pref_gender_array_values"
+        android:title="@string/pref_gender"
+        android:defaultValue="@string/default_gender" />
+
+    <ListPreference
+        android:key="pref_age"
+        android:entries="@array/pref_age_array"
+        android:entryValues="@array/pref_age_array_values"
+        android:title="@string/pref_age"
+        android:defaultValue="@string/default_age" />
+
+    <CheckBoxPreference
+        android:key="pref_show_only_staedel"
+        android:title="@string/pref_show_only_staedel"
+        android:defaultValue="false" />
+
+</PreferenceScreen>

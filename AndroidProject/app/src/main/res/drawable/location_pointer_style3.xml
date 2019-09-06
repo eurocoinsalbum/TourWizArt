@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/loc_point_style3_12" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_13" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_14" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_15" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_16" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_17" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_18" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_19" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_20" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_21" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_22" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_23" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_24" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_25" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_26" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_27" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_28" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_29" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_30" android:duration="50" />
+    <item android:drawable="@drawable/loc_point_style3_31" android:duration="50" />
+</animation-list>

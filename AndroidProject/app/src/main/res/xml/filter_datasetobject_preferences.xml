@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="pref_filter_datasetobject_title"
+        android:title="@string/pref_filter_datasetobject_title"
+        android:dialogTitle="@string/pref_filter_datasetobject_title"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <MultiSelectListPreference
+        android:key="pref_filter_datasetobject_status"
+        android:title="@string/pref_filter_datasetobject_status"
+        android:dialogTitle="@string/pref_filter_datasetobject_status"
+        android:entries="@array/pref_filter_datasetobject_status"
+        android:entryValues="@array/pref_filter_datasetobject_status_values"
+        android:defaultValue="@array/pref_filter_datasetobject_status_values" />
+
+</PreferenceScreen>

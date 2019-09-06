@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="pref_filter_tour_title"
+        android:title="@string/pref_filter_tour_title"
+        android:dialogTitle="@string/pref_filter_tour_title"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <MultiSelectListPreference
+        android:key="pref_filter_tour_access_level"
+        android:title="@string/pref_filter_tour_access_level"
+        android:dialogTitle="@string/pref_filter_tour_access_level"
+        android:entries="@array/pref_filter_tour_access_levels"
+        android:entryValues="@array/pref_filter_tour_access_levels_values"
+        android:defaultValue="@array/pref_filter_tour_access_levels_values" />
+
+</PreferenceScreen>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="codingdavinci.tour"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- <uses-permission android:name="android.permission.RECORD_AUDIO" /> -->
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_tourwizart"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_tourwizart_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.BrowseToursActivity" />
+        <activity android:name=".activity.SelectDatasetObjectsActivity" />
+        <activity android:name=".activity.TourCartActivity" />
+        <activity android:name=".activity.FilterToursActivity" />
+        <activity android:name=".activity.FilterDatasetObjectActivity" />
+        <activity android:name=".activity.CreateTourActivity" />
+        <activity android:name=".activity.AppPreferenceActivity" />
+        <activity android:name=".activity.TourDetailsActivity" />
+        <activity android:name=".activity.AboutActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LocationActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.BrowseDatasetsActivity" />
+        <activity android:name=".activity.StolpersteineActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity android:name=".activity.GoTourActivity" />
+        <activity android:name=".activity.TestMapNavigationFragmentActivity" />
+        <activity android:name=".activity.MyToursActivity"/>
+        <activity android:name=".activity.TestActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".activity.StolpersteineMapActivity"
+            android:label="@string/title_activity_stolpersteine_map"></activity>    
+</application>
+
+</manifest>

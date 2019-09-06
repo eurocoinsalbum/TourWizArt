@@ -1,0 +1,10 @@
+- search (simple/advanced)
+- pre-resize images for mobiles
+- sorting
+- create tour add/select/search/filter paintings
+- honour opening/closing times (nice-to-have feature)
+- group/combine tours
+- ratings/comments
+- on a tour show where the user is right now (which painting) and where to go next
+- store meta data of tour creator (?)
+- tour optimization

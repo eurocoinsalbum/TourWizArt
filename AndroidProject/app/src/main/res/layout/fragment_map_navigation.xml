@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="codingdavinci.tour.activity.MapNavigationFragment">
+
+    <ImageView
+        android:id="@+id/imageMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:id="@+id/parent_all_positions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/map_marker"
+            android:id="@+id/current_position"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/parent_target_positions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
